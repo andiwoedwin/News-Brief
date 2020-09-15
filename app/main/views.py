@@ -11,14 +11,7 @@ def index():
     View root page function that returns the index page and its data
     '''
     general_categories = get_sources('general')
-    # business_category = get_sources('business')
-    # entertainment_categories = get_sources('entertainment')
-    # sports_categories = get_sources('sports')
-    # technology_categories = get_sources('technology')
-    # science_category = get_sources('science')
-    # health_category = get_sources('health')
-
-    title = 'The Worlds Daily Dose'
+    title = 'The Worlds Daily '
     return render_template('index.html',title = title, general = general_categories)
 
 @main.route('/newsarticle/<id>')
