@@ -52,6 +52,9 @@ This is a project that enable users to get access to various news sources and ar
 
 6.Run  ./start.sh to launch the program.
 
+## Live Link
+https://andiwonew.herokuapp.com/
+
 ## Technologies Used
 * PYTHON
 * PIP
